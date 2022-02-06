@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,700;1,700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+background: #E5E5E5;
+
+}
+
+.header, .btn{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.btn{
+    background-color: #094C81;
+    color:white;
+    font-weight: 600px;
+    font-size: 12px;
+    border-radius: 45px;
+
+}
+.wedding{
+    background-color: #0F0826;
+    color: white;
+}
+
+.card{
+    border-radius: 20px;
+    height: 550px;
+}
+.bg-red{
+    background-color: red;
+    width: 50px;
+}
+.wedding:hover{
+    transform: scale(1.1) ;
+    transition:all 2s;
+}
